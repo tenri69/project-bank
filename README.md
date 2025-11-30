@@ -25,7 +25,7 @@ src/
   model/
     Account.java        // Represents a bank account (owner, account number, balance)
     Bank.java           // Manages all accounts and operations (create, deposit, withdraw, transfer)
-    Transaction.java    // (Optional) Represents a transaction (type, amount, accounts, time)
+    Transaction.java    // Represents a transaction (type, amount, accounts, time)
     TransactionType.java// Enum describing transaction types (DEPOSIT, WITHDRAW, TRANSFER)
 
   ui/
